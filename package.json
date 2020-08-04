@@ -1,15 +1,26 @@
 {
   "name": "media-player",
   "version": "1.0.0",
-  "description": "Media player og videos",
+  "description": "Media player for videos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoAguayoOrtega/media-player.git"
+  },
   "keywords": [
-    "javascript",
+    "JavaScript",
     "media-player"
   ],
   "author": "Bernardo Aguayo Ortega",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernardoAguayoOrtega/media-player/issues"
+  },
+  "homepage": "https://github.com/BernardoAguayoOrtega/media-player#readme",
+  "devDependencies": {
+    "install": "^0.13.0"
+  }
 }
