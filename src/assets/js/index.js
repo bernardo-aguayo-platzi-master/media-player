@@ -1,6 +1,6 @@
-import MediaPlayer from "./mediaPlayer.js"
-import AutoPlay from "./plugins/autoPlay.js"
-import AutoPause from "./plugins/autoPause.js"
+import MediaPlayer from "./MediaPlayer.js"
+import AutoPlay from "./plugins/AutoPlay.js"
+import AutoPause from "./plugins/AutoPause.ts"
 
 const VIDEO = document.querySelector("video");
 const BUTTON = document.querySelector("#play-pause");
